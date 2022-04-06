@@ -8,7 +8,7 @@ locale                   : "en-US"
 title                    : "arjunrana.com"
 title_separator          : "-"
 name                     : "arjunrana.com"
-url                      : "https://arana89.github.io"
+url                      : "https://www.arjunrana.com"
 repository               : "arana89/arana89.github.io"
 
 # Site Author
@@ -20,7 +20,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arjun.rana@gmail.com"
+      url: "mailto:me@arjunrana.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arana89"
@@ -33,7 +33,7 @@ footer:
   links:
     - label: ""
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arjun.rana@gmail.com"
+      url: "mailto:me@arjunrana.com"
     - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arana89"
