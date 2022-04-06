@@ -1,0 +1,145 @@
+# config for arjunrana.com
+
+remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "dark"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "arjunrana.com"
+title_separator          : "-"
+name                     : "arjunrana.com"
+url                      : "https://arana89.github.io"
+repository               : "arana89/arana89.github.io"
+
+# Site Author
+author:
+  name             : "Arjun Rana"
+  avatar           : "/assets/images/profile.jpg"
+  bio              : "Physics, Machine Learning, Data Science"
+  location         : "Los Angeles, CA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arjun.rana@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arana89"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/arjunrana1"
+
+# Site Footer
+footer:
+  links:
+    - label: ""
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arjun.rana@gmail.com"
+    - label: ""
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/arana89"
+    - label: ""
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/arjunrana1"
+
+atom_feed:
+  hide: true
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+#configure the projects collection
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  #_projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
