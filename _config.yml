@@ -67,6 +67,7 @@ exclude:
   - package.json
   - package-lock.json
   - Rakefile
+  - README.md
 keep_files:
   - .git
   - .svn
