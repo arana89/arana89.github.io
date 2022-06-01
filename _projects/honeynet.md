@@ -15,6 +15,7 @@ tag:
 - keras
 toc: true
 toc_sticky: true
+show_date: false
 ---
 
 # Summary
