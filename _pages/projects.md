@@ -4,6 +4,7 @@ layout: collection
 permalink: /projects/
 collection: projects
 entries_layout: grid
+sort_by: number
 classes: wide
 header:
   overlay_image: /assets/images/banner.png
