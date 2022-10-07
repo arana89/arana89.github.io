@@ -5,6 +5,7 @@ header:
   overlay_image: /assets/images/banner.png
   overlay_filter: 0.75
   teaser: /assets/images/honeynet/teaser.png
+  og_image: /assets/images/honeynet/teaser.png
 tag:
 - machine learning
 - GCP

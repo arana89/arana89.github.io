@@ -5,6 +5,7 @@ header:
   overlay_image: /assets/images/banner.png
   overlay_filter: 0.75
   teaser: /assets/images/mma_analysis/teaser.png
+  og_image: /assets/images/mma_analysis/teaser.png
 tag:
 - pandas
 - scikit-learn

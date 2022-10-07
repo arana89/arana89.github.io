@@ -5,6 +5,7 @@ header:
   overlay_image: /assets/images/banner.png
   overlay_filter: 0.75
   teaser: /assets/images/bigquery_ML/teaser.jpg
+  og_image: /assets/images/bigquery_ML/teaser.jpg
 tag:
 - GCP
 - bigquery

@@ -11,6 +11,7 @@ name                     : "arjunrana.com"
 description              : "Arjun Rana's personal blog about data science, machine learning and physics."
 url                      : "https://www.arjunrana.com"
 repository               : "arana89/arana89.github.io"
+logo                     : "favicon.ico"
 
 # Site Author
 author:

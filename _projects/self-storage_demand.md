@@ -5,6 +5,7 @@ header:
   overlay_image: /assets/images/banner.png
   overlay_filter: 0.75
   teaser: /assets/images/self-storage_demand/teaser.png
+  og_image: /assets/images/self-storage_demand/teaser.png
 tag:
 - data science
 - jupyter
