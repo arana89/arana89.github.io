@@ -1,10 +1,12 @@
 # main links
 main:
   - title: "About"
-    url: /
+    url: /about/
   - title: "Projects"
     url: /projects/
   - title: "Certifications"
-    url: https://www.credential.net/profile/arjunrana16537/wallet
+    url: /certifications/
+    # url: https://www.credential.net/profile/arjunrana16537/wallet
   - title: "Publications"
-    url: https://scholar.google.com/citations?hl=en&user=48vmZ5IAAAAJ
+    url: /publications/
+    # url: https://scholar.google.com/citations?hl=en&user=48vmZ5IAAAAJ

@@ -2,6 +2,7 @@
 title: Projects
 layout: collection
 permalink: /projects/
+redirect_from: / 
 collection: projects
 entries_layout: grid
 sort_by: number
