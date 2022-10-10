@@ -112,7 +112,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-
+  - jekyll-redirect-from
+  
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
