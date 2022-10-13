@@ -9,7 +9,7 @@ title                    : "arjunrana.com"
 title_separator          : "-"
 name                     : "arjunrana.com"
 description              : "Arjun Rana's personal blog about data science, machine learning and physics."
-url                      : "https://www.arjunrana.com"
+url                      : "https://arjunrana.com"
 repository               : "arana89/arana89.github.io"
 logo                     : "favicon.ico"
 
@@ -113,7 +113,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-redirect-from
-  
+
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
