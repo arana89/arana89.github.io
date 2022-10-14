@@ -736,7 +736,7 @@ map
 ```
 
 <figure class="align-center">
-  <iframe src="/assets/html/mma_analysis/mma_map.html" style="height: 600px; width: 100%;" title=""></iframe>
+  <iframe src="mma_map.html" style="height: 600px; width: 100%;" title=""></iframe>
   <figcaption>A map of MMA gyms in California. The size of each marker is scaled to the total number of fights of the gym, and the color corresponds to the percentage of fights won. The unaffiliated fighters are aggregated into a single marker shown off the coast of Santa Cruz.</figcaption>
 </figure>
 
