@@ -38,7 +38,7 @@ tag:
 toc: true
 toc_sticky: true
 number: 4 #for sorting
-last_modified_at: 2022-10-06
+date: 2022-10-06
 ---
 
 NOTE: The accompanying code for this project can be found [here](https://github.com/arana89/self-storage_demand/blob/master/self-storage_demand.ipynb)
