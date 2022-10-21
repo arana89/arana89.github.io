@@ -190,4 +190,4 @@ The final model is re-trained using only the important features. Removing extran
 
 Out of the 939 CBSAs defined in the US Census, the training dataset contains 153 unique CBSAs. I assume that it is a complete list and use the remaining 786 CBSAs to generate predictions for self-storage demand. Regions with a high predicted target score are interpreted as those that can sustain a larger self-storage market. The result can be clearly explained (i.e. in a meeting with non-technical stakeholders) with a [chloropleth map](https://en.wikipedia.org/wiki/Choropleth_map). The interactive map shown below shows the predicted demand for all CBSAs that were not in the training data, with deeper green corresponding to a higher predicted demand score. According to the model, some regions with notable predicted demand include Edinburg(TX), Boise(ID) and Madison(WI). A targeted expansion in these three areas alone could generate $10M in annual pre-tax cash flow.
 
-{% include self-storage_chloro_map.html %}
+<iframe width="650" height="450" src="/assets/html/self-storage_demand/self-storage_chloro_map.html" frameborder="0" style="border:0" allowfullscreen></iframe>
